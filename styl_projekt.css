@@ -1,0 +1,404 @@
+*{
+    scroll-behavior: smooth;
+}
+#whole{
+background-image: url("tlo.jpg");
+
+background-attachment: fixed;
+
+background-repeat: no-repeat;
+    
+background-size: cover;
+    
+}
+
+#mainh{
+    background-color: darkkhaki;
+    width: auto;
+    height: 100px;
+    display: flex;
+    
+    
+}
+ body{
+    margin: 0 auto;
+}
+
+#h1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+p{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    
+    
+}
+
+#h2{
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h2 a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+}
+#h2 a:hover{
+    font-size: 25px;
+    color: white;
+    
+}
+
+
+
+
+#welcome{
+    display: flex;
+    height: 600px;
+    
+}
+#w1{
+    width: 40%;
+    height: auto;
+    background-image: url(wprowadzenie.PNG);
+}
+
+#w2{
+    height: auto;
+    width: 60%;
+    text-align: center;
+}
+#w2 h1{
+    font-size: 35px;
+    color: white;
+}
+#w2 p{
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+#title1{
+    font-size: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: darkkhaki;
+    text-align: center;
+    color: black;
+    
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: darkkhaki;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 1s ease;  
+    
+}
+
+.text{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+}
+
+#maina1{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: auto;
+    height: 1100px;
+    display: flex;
+}
+
+
+#fractions{
+    width: 100%;
+    height: 550px;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+#fractions2{
+    width: 100%;
+    height: 550px;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+.fraction{
+    position: relative;
+    
+}
+
+.fraction img{
+    width: 370px;
+    height: 550px;
+    object-fit: cover;
+    
+}
+.fraction:hover .overlay{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+#title2{
+    font-size: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: darkkhaki;
+    text-align: center;
+    color: black;
+    
+}
+
+
+
+#maina2{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: auto;
+    height: 1100px;
+}
+
+#minors1{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.minor{
+    position: relative;
+    height: 550px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.minor img{
+    display: block;
+    height: 500px;
+    width: 250px;
+    object-fit: fill;
+    
+}
+
+
+.minor:hover .overlay{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#title3{
+    font-size: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: darkkhaki;
+    text-align: center;
+    color: black;
+}
+
+
+#maina3{
+    width: 100%;
+    height: 900px;
+    position: relative; 
+    
+}
+#maina3 img{
+    height: 900px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    
+    
+}
+#maina3:hover .overlay{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+#title4{
+    font-size: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: darkkhaki;
+    text-align: center;
+    color: black;  
+}
+
+
+#maina4{
+    width: 100%;
+    height: 3200px;
+    display: flex;
+    
+    
+}
+#towns1{
+    width: 100%;
+    height: 3200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+.town{
+    position: relative;
+    height: 800px;
+    width: 900px;
+}
+
+.town img{
+    display: block;
+    height: 800px;
+    width: 900px;
+    object-fit: fill;
+}
+
+.town:hover .overlay{
+    height: 100%;
+}
+
+
+
+
+#title5{
+    font-size: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: darkkhaki;
+    text-align: center;
+    color: black;  
+}
+
+#maina5{
+    width: 100%;
+    height 500px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#leaders{
+    width: 30%;
+    
+}
+#leaders img{
+    display: block;
+    height: 500px;
+    
+}
+#leaders_txt{
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    color: lightcyan;    
+}
+
+
+
+
+
+
+#mainf{
+    background-color: darkkhaki;
+    height: 100px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 'left middle right';
+    grid-column-gap: 4px;
+    
+}
+.left{
+    font-size: 25px;
+    color: black;
+    grid-area: left;
+    height: 70px;
+    text-align: center;
+}
+
+.middle{
+    font-size: 25px;
+    color: black;
+    grid-area: middle;
+    height: 70px;
+    text-align: center;
+}
+
+.right{
+    font-size: 25px;
+    color: black;
+    grid-area: right;
+    height: 70px;
+    text-align: center;
+}
+
+
+
